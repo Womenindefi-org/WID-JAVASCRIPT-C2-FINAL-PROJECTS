@@ -4,8 +4,8 @@ GitHub: Faavvvv
 X handle: https://x.com/Faavvv_
 
 ## WID Training Application Portal
-A modern, responsive, and automated multi-step application system built with HTML, Tailwind CSS, and JavaScript for the Women In Development (WID) training program.
- This front-end solution streamlines the entire application process — from data collection to validation — ensuring a smooth, user-friendly, and transparent onboarding experience.
+A responsive and automated multi-step application system built with HTML, Tailwind CSS, and JavaScript for the Women In DeFi (WID) training program.
+This front-end solution streamlines the entire application process — from data collection to validation — ensuring a smooth, user-friendly, and transparent onboarding experience.
 
 Live Demo
 https://wid-javascript-c2-final-projects.vercel.app/

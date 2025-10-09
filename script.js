@@ -42,7 +42,7 @@ document.addEventListener("DOMContentLoaded", () => {
     impactAnswer: "",
   };
 
-  // --- Frontend Data Persistence & Duplication Check ---
+ 
 
   const savedApplication = localStorage.getItem("wid_application");
   if (savedApplication) {
@@ -102,7 +102,7 @@ document.addEventListener("DOMContentLoaded", () => {
   nextBtn.addEventListener("click", (e) => {
     e.preventDefault();
     if (!validateStep(currentStep)) {
-      // Validation handled inline
+     
       return;
     }
     if (currentStep < totalSteps - 1) {
@@ -138,12 +138,12 @@ document.addEventListener("DOMContentLoaded", () => {
     prevBtn.classList.toggle('opacity-50', currentStep === 0);
     nextBtn.textContent = currentStep === totalSteps - 1 ? "Submit Application" : "Next";
     
-    // Scroll to the top of the application container for better UX
+   
     const appContainer = document.getElementById("app");
     appContainer.scrollIntoView({ behavior: 'smooth' });
   }
-  
-  // Inline Validation Logic
+ 
+
   function validateStep(stepIndex) {
     let isValid = true;
     const currentStepSection = steps[stepIndex];
@@ -162,7 +162,7 @@ document.addEventListener("DOMContentLoaded", () => {
       }
     });
     
-    // Specific validation rules for step 2 (Community Username)
+   
     if (stepIndex === 1 && formData.joinedCommunity === "yes" && !formData.communityUsername) {
       const usernameInput = currentStepSection.querySelector('input[name="communityUsername"]');
       usernameInput.classList.add('border-red-500');
@@ -197,9 +197,9 @@ document.addEventListener("DOMContentLoaded", () => {
     return Math.max(0, Math.min(100, Math.round(score)));
   }
 
-  // Handle submission & Final Client-Side Shortlisting
+
   function handleSubmit() {
-    // All shortlisting criteria are client-side only
+    // All shortlisting criteria
     const isFemale = formData.gender === "female";
     const joinedCommunity = formData.joinedCommunity === "yes";
     const committed = formData.commitment === "yes";
@@ -223,7 +223,7 @@ document.addEventListener("DOMContentLoaded", () => {
     localStorage.setItem("wid_application", JSON.stringify({
       ...formData,
       shortlisted: passedAll,
-      writingScore: motivationQuality // Internal score saved but not displayed
+      writingScore: motivationQuality 
     }));
 
     // Feedback UI
@@ -250,9 +250,9 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
-  // Initialize form
+ 
   updateSteps();
-  // Initialize word count feedback on load
+  
   if (impactAnswerTextarea) {
     updateWordCountFeedback(impactAnswerTextarea.value);
   }
