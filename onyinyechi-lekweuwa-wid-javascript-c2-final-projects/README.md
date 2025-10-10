@@ -1,5 +1,11 @@
 # Training Engagement Bot
 
+## Information
+Name: Onyinyechi Samuel Lekweuwa
+Github: theglobalada
+X-username: theglobalada
+LinkedIn: Onyinyechi Lekweuwa
+
 ## Overview
 
 The Training Engagement Bot is a custom bot designed to enhance learner engagement through reminders, motivational quotes, assignments, and daily prompts. It automatically posts check-in questions to keep learners accountable and motivated throughout their learning journey.
