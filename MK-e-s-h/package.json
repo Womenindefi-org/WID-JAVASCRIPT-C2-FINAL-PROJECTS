@@ -1,0 +1,30 @@
+{
+  "name": "wid-bot-final-project",
+  "version": "1.0.0",
+  "description": "A Telegram bot for training engagement with automated reminders, motivational quotes, and progress tracking",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "dev": "nodemon bot.js",
+    "setup-db": "node scripts/setupDatabase.js"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "training",
+    "education",
+    "automation"
+  ],
+  "author": "MiniMax Agent",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.6.1",
+    "moment-timezone": "^0.5.43",
+    "node-cron": "^3.0.3",
+    "node-telegram-bot-api": "^0.64.0",
+    "sqlite3": "^5.1.6"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
