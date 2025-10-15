@@ -6,6 +6,9 @@ Github: theglobalada
 X-username: theglobalada
 LinkedIn: Onyinyechi Lekweuwa
 
+## Direct link to widdybot
+https://t.me/widdy_ada_bot
+
 ## Overview
 
 The Training Engagement Bot is a custom bot designed to enhance learner engagement through reminders, motivational quotes, assignments, and daily prompts. It automatically posts check-in questions to keep learners accountable and motivated throughout their learning journey.
