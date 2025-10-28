@@ -1,61 +1,68 @@
-# 🪄 Women In DeFi – JavaScript C2 Final Projects
+## Women In DeFi - JavaScript C2 Final Projects
+Name: Akande Favour Fiyinfoluwa
+GitHub: Faavvvv
+X handle: https://x.com/Faavvv_
 
-Welcome to the Women in DeFi JavaScript Cohort 2 Final Project Repository 🎉
-This repository is where all students will submit their final JavaScript projects by creating a Pull Request (PR).
-Follow the steps below carefully to ensure your submission is properly reviewed and merged.
+## WID Training Application Portal
+A responsive and automated multi-step application system built with HTML, Tailwind CSS, and JavaScript for the Women In DeFi (WID) training program.
+This front-end solution streamlines the entire application process — from data collection to validation — ensuring a smooth, user-friendly, and transparent onboarding experience.
 
-## 📚 About the Final Project
-This project is your opportunity to demonstrate what you’ve learned throughout the Women in DEf JavaScript Cohort 2 program.
+Live Demo
+https://wid-javascript-c2-final-projects.vercel.app/
 
-## 🧭 Submission Instructions
-Follow these steps carefully to submit your project:
-### 1️⃣ Fork this Repository
-Click the Fork button at the top-right corner of this page to create your copy of this repo in your GitHub account.
-### 2️⃣ Clone Your Fork
-On your GitHub account, copy your forked repo URL and run:
-```
-https://github.com/Womenindefi-org/WID-JAVASCRIPT-C2-FINAL-PROJECTS
-```
+Features
+✅ Multi-Step Form Interface
+ Guides applicants through clear stages 
+✅ Real-Time Validation
+ Ensures all required fields are filled with valid data before proceeding.
+✅ Auto-Save Progress
+ Stores entered information in localStorage so applicants never lose their data mid-way.
+✅ Duplicate Submission Prevention
+ Detects if an email has already been used to submit an application.
+✅ Responsive Design
+ Built with Tailwind CSS — optimized for desktop, tablet, and mobile users.
 
-### 3️⃣ Create a New Folder for Your Project
-Inside the cloned repository, create a folder named after your full name or GitHub username.
-Example:
-WID-JAVASCRIPT-C2-FINAL-PROJECTS/
-└── yourname/
-├── index.html
-├── style.css
-├── script.js
-└── README.md
-     
+ ## Built With
+HTML5
+Tailwind CSS
+JavaScript (ES6)
 
-### 4️⃣ Add Your Project Files
-Include all your project files (HTML, CSS, JS, assets, etc.) in your folder.
-Make sure your project can be run locally or deployed (e.g., via GitHub Pages, Netlify, or Vercel).
-### 5️⃣ Commit and Push Your Work
-```
-git add .
-git commit -m "Added final project by <your-name>"
-git push origin <name-of-branch>
-```
-
-### 6️⃣ Create a Pull Request (PR)
-- Go back to the original repo:
-- https://github.com/Womenindefi-org/WID-JAVASCRIPT-C2-FINAL-PROJECTS
-- Click “Compare & Pull Request”
-- Add a clear title and short description of your project.
-- Submit the PR ✅
+## Folder Structure
+wid-training-application
+ ┣  index.html
+ ┣  script.js
+ ┣  image.png
+ ┗  README.md
 
 
-### 🌟 Guidelines
-- Keep code clean and readable
-- Use meaningful names
-- Add comments
-- Make sure your app runs with no errors
-- Bonus: Host on GitHub Pages, Netlify, or Vercel
+ ## Getting Started
+1. Clone this repository
+git clone https://github.com/<your-username>/wid-training-application.git
 
-##  🧑‍⚖️ Review
-- Mentors will review your PR.
-- Feedback may be added before merging into the main repo.
+ 2. Open the project folder
+cd wid-training-application
+
+ 3. Run locally
+Just open index.html in your browser — no backend or build step needed.
+
+
+ How It Works
+1. The form collects applicant data across four steps
+
+2. Each step validates input before allowing progress
+
+3. Data auto-saves in localStorage
+
+4. Submissions triggers if you've been shortlisted or will be taken into consideration.
+
+5. Duplicate emails are blocked from reapplying
+
+## FUTURE ENHANCEMENTS
+ 1. Connect to a backend (Firebase, Google Sheets, or REST API) for data storage
+ 2. Add automated shortlisting logic
+ 3. Send confirmation emails
+ 4. Build an admin dashboard for reviewing applicants
+
 
 ## 💪 Acknowledgment
 This repo is part of the Women in DeFi Developer Program, helping women grow as Web3 and JavaScript developers.
